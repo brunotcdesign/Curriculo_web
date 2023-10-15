@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário de Contato</title>
+</head>
+<body>
+<section>
+    <h1>Entre em Contato</h1>
+
+    <div class="form_grid">
+        <form action="processar_formulario.php" method="post">
+            <div class="form_item"><label for="nome">Nome:</label></div>
+            <div class="form_item"><input type="text" id="nome" name="nome" required></div>
+            <div class="form_item"><label for="email">Email:</label></div>
+            <div class="form_item"><input type="email" id="email" name="email" required></div>
+            <div class="form_item"><label for="assunto">Assunto:</label></div>
+            <div class="form_item"><input type="text" id="assunto" name="assunto" required></div>
+            <div class="form_item"><label for="mensagem">Mensagem:</label></div>
+            <div class="form_item>"><textarea id="mensagem" name="mensagem" required></textarea></div>
+            <div><input type="submit" value="Enviar"></div>
+            <br>
+            <div class="form_item"><a href="index.html">Voltar</a></div> 
+        </form>
+    </div>
+
+</section>
+</body>
+</html>
